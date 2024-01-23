@@ -1,0 +1,28 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+# parent
+# ├── Ellitesserien 
+# └── datasets
+#     └── 1200 images  ← downloads here (283 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/mehdihou/D1/YOLO-Train/Train/750Det-DATASET              # dataset root dir
+train: /home/mehdihou/D1/YOLO-Train/Train/750Det-DATASET/train       # train images (relative to 'path') 128 images
+val: /home/mehdihou/D1/YOLO-Train/Train/750Det-DATASET/valid       # val images (relative to 'path') 128 images
+test:  /home/mehdihou/D1/YOLO-Train/Train/750Det-DATASET/test       # test images (optional)
+
+# Classes
+names:
+  0: Player
+  1: Goalkeeper
+  2: Referee
+  3: Ball
+  4: Logo
+  5: Penalty Mark
+  6: Corner Flagpost
+  7: Goal Net
+
+
+
+
