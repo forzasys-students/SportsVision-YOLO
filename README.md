@@ -10,9 +10,6 @@ Welcome to the `SportsVision-YOLOv8` repository, where we have fine-tuned the YO
 - **Training Data Description**: The dataset comprises approximately 1300 frames from soccer matches across Eliteserien, Allsvenskan, and Toppserien. It includes various scenarios identified as edge cases in soccer clips. These scenarios range from the ball being airborne, not on the green field, to situations where the ball is closely adhered to the player's foot. Additionally, the dataset encompasses a diversity of colors present in these matches.
 
 
-##### Link to the Dataset: 
-https://drive.google.com/drive/folders/1T4MU8wzKYZ6osIweuieBf1EGrIV3l-lv?usp=drive_link
-
 - **Training:** 
 
 | Training parameters              | Detail                                      |
