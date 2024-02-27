@@ -1,6 +1,6 @@
 # SportObjectDetection-YOLOv8
 
-Welcome to the `SportsVision-YOLOv8` repository, where we have fine-tuned the YOLO v8 model for specific sports object detection tasks. Our models are tailored for two popular sports: Soccer and Ice Hockey.
+Welcome to the `SportsVision-YOLO` repository, where we have fine-tuned the YOLO v8 model for specific sports object detection tasks. Our models are tailored for two popular sports: Soccer and Ice Hockey.
 
 ## Models
 
