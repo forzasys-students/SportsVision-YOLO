@@ -54,8 +54,48 @@ https://docs.google.com/spreadsheets/d/1MXJZbh9JmHIsDejrBAAIB73V_QeDird1ET3RopYX
 
 
 ### Ice Hockey Detection Model
-- **Objective**: Detect ice hockey pucks and players.
-- **Training Data Description**: [Brief description of the training data].
-- **Performance Metrics**: [Key performance metrics].
 
-## Papers
+## Models
+
+### Ice Hockey Detection Model
+- **Objective**: Designed to detect Pucks, Players, and Logos in ice hockey games, this model is specifically calibrated for the dynamic and varied environments of ice hockey matches.
+
+- **Training Data Description**: The training involved two separate datasets. The first set contained 800 frames, while the second set comprised 1470 frames, both sourced from the Swedish Hockey League (SHL). These datasets focus on capturing a wide range of game scenarios and diverse lighting conditions characteristic of professional ice hockey.
+
+- **Training 1:** 
+
+| Training parameters              | Detail                                      |
+|----------------------------------|---------------------------------------------|                                  |
+| **Yolo Version**                 | YOLOv8 - Medium                             |
+| **Epochs**                       | 200                                         |
+| **Agnostic NMS**                 | TRUE                                        |
+| **Image Size**                   | 1920                                        |
+| **Batch Size**                   | 16                                          |
+| **Patience**                     | 100                                         |
+| **Optimizer**                    | adamW                                       |
+| **Learning Rate**                | 0.001                                       |
+| **Drop Out**                     | 0.5                                         |
+| **Puck True Positive (TP)**      | 79%                                         |
+| **Puck False Negative (FN)**     | 21%                                         |
+
+- **Training 2:** 
+
+| Training parameters              | Detail                                      |
+|----------------------------------|---------------------------------------------|
+| **Yolo Version**                 | YOLOv8 - Medium                             |
+| **Epochs**                       | 300                                         |
+| **Agnostic NMS**                 | TRUE                                        |
+| **Image Size**                   | 1920                                        |
+| **Batch Size**                   | 64                                          |
+| **Patience**                     | 200                                         |
+| **Optimizer**                    | adamW                                       |
+| **Learning Rate**                | 0.001                                       |
+| **Drop Out**                     | 0.3                                         |
+| **Puck True Positive (TP)**      | 85%                                         |
+| **Puck False Negative (FN)**     | 15%                                         |
+
+- **Performance Metrics and Execution Details**: [To be added based on test results and execution settings, similar to the Soccer model]
+
+##### Link to the training sheet:
+https://docs.google.com/spreadsheets/d/1AjyZic49A3KF9BOXiTQVdbmHqwF5O7O3yZJdFem0xk8/edit?usp=drive_link
+
