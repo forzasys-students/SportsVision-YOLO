@@ -65,7 +65,7 @@ https://docs.google.com/spreadsheets/d/1MXJZbh9JmHIsDejrBAAIB73V_QeDird1ET3RopYX
 - **Training 1:** 
 
 | Training parameters              | Detail                                      |
-|----------------------------------|---------------------------------------------|                                  |
+|----------------------------------|---------------------------------------------|  
 | **Yolo Version**                 | YOLOv8 - Medium                             |
 | **Epochs**                       | 200                                         |
 | **Agnostic NMS**                 | TRUE                                        |
@@ -98,4 +98,33 @@ https://docs.google.com/spreadsheets/d/1MXJZbh9JmHIsDejrBAAIB73V_QeDird1ET3RopYX
 
 ##### Link to the training sheet:
 https://docs.google.com/spreadsheets/d/1AjyZic49A3KF9BOXiTQVdbmHqwF5O7O3yZJdFem0xk8/edit?usp=drive_link
+
+#### How the Script Works
+- **Script Overview**: The script is designed to use YOLO v8 for object detection in sports videos. It can detect specific objects like pucks in hockey or balls, players, and logos in soccer.
+
+- **Importing Libraries**: The script starts by importing necessary libraries like `cv2` for video processing and `ultralytics` for accessing the YOLO model.
+
+- **Loading the YOLO Model**:
+  - The model is loaded using `YOLO()` from the `ultralytics` package.
+  - A pre-trained model specific to either hockey or soccer is loaded, with a default probability threshold set to 0.4.
+
+- **Setting Up Class Names**: 
+  - For the hockey model, it looks for 'puck'.
+  - For soccer, it detects 'Player', 'Ball', and 'Logo'.
+
+- **Video Processing**:
+  - The script reads a video file specified in `video_path`.
+  - It then enters a loop, processing the video frame by frame.
+
+- **YOLO Inference**:
+  - For each frame, YOLOv8 inference is run to detect the specified objects.
+  - The results are then visualized on the frame using `plot()`.
+
+- **Display and Exit**:
+  - The annotated frames are displayed in real-time.
+  - The script can be exited by pressing 'q'.
+  - The video capture object is released and the display window is closed at the end.
+
+This script is a basic implementation to demonstrate the application of our fine-tuned YOLOv8 models in real-world scenarios. 
+
 
