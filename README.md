@@ -124,6 +124,11 @@ https://docs.google.com/spreadsheets/d/1AjyZic49A3KF9BOXiTQVdbmHqwF5O7O3yZJdFem0
   - The annotated frames are displayed in real-time.
   - The script can be exited by pressing 'q'.
   - The video capture object is released and the display window is closed at the end.
+    
+- **API Endpoints**:
+  - For each frame, YOLOv8 inference is run to detect the specified objects.Object Detection Endpoint: An API endpoint **(/detect_objects)** is set up to handle 
+    POST requests. It accepts a JSON payload with **video_url** and content_type (either 'soccer' or 'ice hockey'). The endpoint processes the video to detect 
+    objects like BALLS, players, or logosin soccer and pucks in ice hockey based on the specified content type and returns the detection results in JSON format.
 
 This script is a basic implementation to demonstrate the application of our fine-tuned YOLOv8 models in real-world scenarios. 
 
