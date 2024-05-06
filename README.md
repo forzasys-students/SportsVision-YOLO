@@ -47,15 +47,9 @@ Welcome to the `SportsVision-YOLO` repository, where we have fine-tuned the YOLO
 | **Execution Time**               | 78 seconds (4GB GPU)           |
 | **Inputs**                       | 32s 1280p video at 25fps |
 
-##### Link to the trainig sheet:
-https://docs.google.com/spreadsheets/d/1MXJZbh9JmHIsDejrBAAIB73V_QeDird1ET3RopYXqP4/edit?usp=sharing
+<!--- ##### Link to the training sheet: https://docs.google.com/spreadsheets/d/1MXJZbh9JmHIsDejrBAAIB73V_QeDird1ET3RopYXqP4/edit?usp=sharing --->
 
 
-
-
-### Ice Hockey Detection Model
-
-## Models
 
 ### Ice Hockey Detection Model
 - **Objective**: Designed to detect Pucks, Players, and Logos in ice hockey games, this model is specifically calibrated for the dynamic and varied environments of ice hockey matches.
@@ -96,8 +90,7 @@ https://docs.google.com/spreadsheets/d/1MXJZbh9JmHIsDejrBAAIB73V_QeDird1ET3RopYX
 
 - **Performance Metrics and Execution Details**: [To be added based on test results and execution settings, similar to the Soccer model]
 
-##### Link to the training sheet:
-https://docs.google.com/spreadsheets/d/1AjyZic49A3KF9BOXiTQVdbmHqwF5O7O3yZJdFem0xk8/edit?usp=drive_link
+<!--- ##### Link to the training sheet: https://docs.google.com/spreadsheets/d/1AjyZic49A3KF9BOXiTQVdbmHqwF5O7O3yZJdFem0xk8/edit?usp=drive_link --->
 
 #### How the Script Works
 - **Script Overview**: The script is designed to use YOLO v8 for object detection in sports videos. It can detect specific objects like pucks in hockey or balls, players, and logos in soccer.
