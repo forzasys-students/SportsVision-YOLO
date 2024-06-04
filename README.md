@@ -125,4 +125,9 @@ Welcome to the `SportsVision-YOLO` repository, where we have fine-tuned the YOLO
 
 This script is a basic implementation to demonstrate the application of our fine-tuned YOLOv8 models in real-world scenarios. 
 
+### References
+ - Sarkhoosh, Mehdi Houshmand, et al. "AI-Based Cropping of Soccer Videos for Different Social Media Representations." International Conference on Multimedia Modeling. Cham: Springer Nature Switzerland, 2024.
+ - Dorcheh, Sayed Mohammad Majidi, et al. "SmartCrop: AI-based cropping of soccer videos." 2023 IEEE International Symposium on Multimedia (ISM). IEEE, 2023.
+ - Majidi, Mohammad, et al. "SmartCrop-H: AI-Based Cropping of Ice Hockey Videos." Proceedings of the 15th ACM Multimedia Systems Conference. 2024.
+
 
