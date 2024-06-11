@@ -9,7 +9,6 @@ Welcome to the `SportsVision-YOLO` repository, where we have fine-tuned the YOLO
 
 - **Training Data Description**: The dataset comprises approximately 1300 frames from soccer matches across Eliteserien, Allsvenskan, and Toppserien. It includes various scenarios identified as edge cases in soccer clips. These scenarios range from the ball being airborne, not on the green field, to situations where the ball is closely adhered to the player's foot. Additionally, the dataset encompasses a diversity of colors present in these matches.
 
-
 - **Training:** 
 
 | Training parameters              | Detail                                      |
@@ -44,12 +43,10 @@ Welcome to the `SportsVision-YOLO` repository, where we have fine-tuned the YOLO
 
 | Model Execution                  | Detail                                      |
 |----------------------------------|---------------------------------------------|
-| **Execution Time**               | 78 seconds (4GB GPU)           |
-| **Inputs**                       | 32s 1280p video at 25fps |
+| **Execution Time**               | 78 seconds (4GB GPU)                        |
+| **Inputs**                       | 32s 1280p video at 25fps                     |
 
 <!--- ##### Link to the training sheet: https://docs.google.com/spreadsheets/d/1MXJZbh9JmHIsDejrBAAIB73V_QeDird1ET3RopYXqP4/edit?usp=sharing --->
-
-
 
 ### Ice Hockey Detection Model
 - **Objective**: Designed to detect Pucks, Players, and Logos in ice hockey games, this model is specifically calibrated for the dynamic and varied environments of ice hockey matches.
@@ -130,4 +127,5 @@ This script is a basic implementation to demonstrate the application of our fine
  - Dorcheh, Sayed Mohammad Majidi, et al. "SmartCrop: AI-based cropping of soccer videos." 2023 IEEE International Symposium on Multimedia (ISM). IEEE, 2023.
  - Majidi, Mohammad, et al. "SmartCrop-H: AI-Based Cropping of Ice Hockey Videos." Proceedings of the 15th ACM Multimedia Systems Conference. 2024.
 
-
+### License
+This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE) file for details.
