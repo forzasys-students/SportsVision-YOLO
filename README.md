@@ -6,6 +6,8 @@ Welcome to the `SportsVision-YOLO` repository, where we have fine-tuned the YOLO
 
 ### Soccer Detection Model
 - **Objective**: The primary goal of the project is to detect Balls, Players, and Logos on the soccer pitch across various types of camera shots, ranging from wide-angle views to close-up shots. This comprehensive detection aims to accurately identify these key elements in diverse and dynamic soccer match environments.
+  
+  ![Example of Soccer Player and Ball Detection](https://i.ibb.co/cYbzPzk/cropping.jpg)
 
 - **Training Data Description**: The dataset comprises approximately 1300 frames from soccer matches across Eliteserien, Allsvenskan, and Toppserien. It includes various scenarios identified as edge cases in soccer clips. These scenarios range from the ball being airborne, not on the green field, to situations where the ball is closely adhered to the player's foot. Additionally, the dataset encompasses a diversity of colors present in these matches.
 
@@ -49,7 +51,9 @@ Welcome to the `SportsVision-YOLO` repository, where we have fine-tuned the YOLO
 <!--- ##### Link to the training sheet: https://docs.google.com/spreadsheets/d/1MXJZbh9JmHIsDejrBAAIB73V_QeDird1ET3RopYXqP4/edit?usp=sharing --->
 
 ### Ice Hockey Detection Model
-- **Objective**: Designed to detect Pucks, Players, and Logos in ice hockey games, this model is specifically calibrated for the dynamic and varied environments of ice hockey matches.
+- **Objective**: Designed to detect Pucks in ice hockey games, this model is specifically calibrated for the dynamic and varied environments of ice hockey matches.
+
+  ![Example of Ice Hockey Puck Detection](https://i.ibb.co/9n614YV/2-pucks-in-rink.png)
 
 - **Training Data Description**: The training involved two separate datasets. The first set contained 800 frames, while the second set comprised 1470 frames, both sourced from the Swedish Hockey League (SHL). These datasets focus on capturing a wide range of game scenarios and diverse lighting conditions characteristic of professional ice hockey.
 
